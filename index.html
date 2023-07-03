@@ -2,11 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Peter Culver - About Me Page</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
-<body>
-<p>Hello World</p>
+
+<body class="container">
+    
+    <header>
+        
+        <h1>
+            <img class="company-logo" src="img/Culver Coding Company - Full Color.png" alt="Branding-Icon">
+            <p>Peter Culver<br><span>Full Stack Software Developer</span></p>
+        </h1>
+        <nav>
+            <ul  style="height: 55.906px">
+                <li><a class="navTools" href="#AboutMe">About</a><br><span>personal info</span></li>
+                <li><a class="navTools" href="#Projects">Portfolio</a><br><span>selected works</span></li>
+                <li><a class="navTools" href="#ProfessionLinks">Professional</a><br><span>profile links</span></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="AboutMe" class="about-me">
+            Peter Culver is a junior full-stack software developer.  He is a graduate of the We Can Code It - C# Cohort. His technical skills include: C#, HTML5, CSS3, SQL, JavaScript, GitHub, React, REST API, Razor, and MVC.  
+            <!--Perhaps add tool sets like: Slack, Discord, Google Suite, Visual Studio 2022, Visual Studio Code, -->
+            For 22 years, he was a K-12 public school music educator.  His time as an educator provided numerous opportunities in working collaboratively with a variety of people.  
+            He has held Supervisory and Directorial roles dealing with students and colleagues, Point-Communication and Advisory roles with parents and community stakeholders, and Managerial responsibilities with
+            various performance groups and large-scale theatrical productions.  Always a lifelong learner, he is excited to travel in a new career direction and turn his love of technology into a new profession.  
+            He is looking forward to taking his working skills as an educator and applying them to his advancing technical skills working with, and eventually leading, teams of software developers.                    
+        </article>
+    </main>
+    <section class="photo-professional-links">
+        <div>
+            <img class="personalPhoto" src="img/HeadShot2.png" alt="professional photo">
+        </div>
+        <div>
+            <a href="">culver.peter722@gmail.com</a>
+        </div>
+        <ul id="ProfessionLinks" class="profession-links">
+            <li><a class="link-anchors" href="https://github.com/PeterCulv"><img class="GitHub" src="img/github-icon.png" alt="GitHub Logo"></a></li>
+            <li><a class="link-anchors" href="https://www.linkedin.com/in/peter-culver-125399281/"><img class="LinkedIn" src="img/linkedin-square-icon.png" alt="LinkedIn Logo"></a></li>
+            <li><a class="link-anchors" href="#"><img class="Twitter" src="img/twitter-square-icon (1).png" alt="Twitter Logo"></a></li>
+            <li><a class="link-anchors" href="#"><img class="Instagram" src="img/instagram-square-icon.png" alt="Instagram Logo"></a></li>
+        </ul>
+    </section>
+    <section id="Projects" class="projects">
+        <article class="project_1">
+            <h5>Project #1</h5>
+            <div>
+                <p>Class of Choice</p>
+                <p>Link to GitHub repository or project's GitHub Page</p>
+            </div>
+            <div>
+                <!--Take and link image of Class Of Choice Project-->
+                <img>screenshot</img>
+            </div>
+            <div>
+                <p>Skills and Tools Utilized:</p>
+                <ul>
+                    <li>C#</li>
+                    <li>Visual Studio 2022</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+        </article>
+        <article class="project_2">
+            <h5>Project #2</h5>
+            <div>
+                <p>Virtual Pet</p>
+                <p>Link to GitHub repository or project's GitHub Page</p>
+            </div>
+            <div>
+                <!--Take and link image of Virtual Pet Project-->
+                <img>screenshot</img>
+            </div>
+            <div>
+                <p>Skills and Tools Utilized:</p>
+                <ul>
+                    <li>C#</li>
+                    <li>Visual Studio 2022</li>
+                    <li>Visual Studio Code Live</li>
+                    <li>Slack</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+        </article>
+        <article class="project_3">
+            <h5>Project #3</h5>
+            <div>
+                <p>About Me Website</p>
+                <p>Link to GitHub repository or project's GitHub Page</p>
+            </div>
+            <div>
+                <p>screenshot</p>
+            </div>
+            <div>
+                <p>Skills and Tools Utilized:</p>
+                <ul>
+                    <li>HTML:5</li>
+                    <li>CSS3</li>
+                    <li>Visual Studio Code</li>
+                    <li>AI Image Generation</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <p>Copyright &copy; 2023 Culver Coding Company. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,165 @@
+body {
+    background-image: url(img/Beige\ Background.png);
+    background-image: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header {
+    color: #515e47;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.company-logo {
+    width: 70px;
+    height: auto;
+    padding: 0px 20px;
+}
+h1 {
+    color: #515e47;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center; 
+}
+
+h1 span {
+    color: #515e47;
+    font-size: 14px;
+    font-weight: 100;
+    font-style:italic;
+    text-transform: none;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    justify-items: center; 
+    padding-left: 0;
+    margin-top: 12.06px;
+    margin-bottom: 12.06px;
+}
+
+header ul li {
+    margin-right: 100px;  
+}
+
+header ul li span{
+    color: #515e47;
+    font-size: 14px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+header ul a {
+    color: #515e47;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header ul a:hover {
+    color: #c844fc;
+}
+.background-image {
+    object-fit:contain;
+}
+
+.about-me::first-letter{
+    
+    font-size: 70px;
+    float: left;
+    margin: 5px;
+    font-family: 'Garamond', serif;
+}
+.about-me {
+    color: #515e47;
+    font-family: 'Garamond', serif;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 100px 100px 50px 150px;
+}
+
+
+.photo-professional-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.personalPhoto {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    padding: 20px 20px;
+}
+.profession-links {
+    list-style-type: none;
+    padding-left: 0px;  
+}
+
+.GitHub {
+    filter: invert(35%) sepia(8%) saturate(1124%) hue-rotate(51deg) brightness(92%) contrast(85%);
+    width: 30px;
+    height: auto;
+    padding:20px 20px;
+}
+.GitHub:hover {
+    filter: invert(39%) sepia(31%) saturate(6493%) hue-rotate(262deg) brightness(99%) contrast(100%);
+    transform: scale(1.75);
+}
+.LinkedIn {
+    filter: invert(35%) sepia(8%) saturate(1124%) hue-rotate(51deg) brightness(92%) contrast(85%);
+    width: 30px;
+    height: auto;
+    padding:20px 20px;
+}
+.LinkedIn:hover {
+    filter: invert(39%) sepia(31%) saturate(6493%) hue-rotate(262deg) brightness(99%) contrast(100%);
+    transform: scale(1.75);
+}
+.Twitter {
+    filter: invert(35%) sepia(8%) saturate(1124%) hue-rotate(51deg) brightness(92%) contrast(85%);
+    width: 30px;
+    height: auto;
+    padding:20px 20px;
+
+}
+.Twitter:hover {
+    filter: invert(39%) sepia(31%) saturate(6493%) hue-rotate(262deg) brightness(99%) contrast(100%);
+    transform: scale(1.75);
+}
+.Instagram {
+    filter: invert(35%) sepia(8%) saturate(1124%) hue-rotate(51deg) brightness(92%) contrast(85%);
+    width: 30px;
+    height: auto;
+    padding:20px 20px;
+}
+.Instagram:hover {
+    filter: invert(39%) sepia(31%) saturate(6493%) hue-rotate(262deg) brightness(99%) contrast(100%);
+    transform: scale(1.75);
+}
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 25px;
+}
+
+
+
+
+
+
+footer p {
+    font-size: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
